@@ -13,7 +13,7 @@ function notify(a,b,c,d)
     })
 end
 
-task.spawn(function() task.wait(1) load('ExtraScripts', 'DiscordInvite') end)
+task.spawn(function() task.wait(3) load('ExtraScripts', 'DiscordInvite') end)
 
 local PlaceId = game.PlaceId
 
