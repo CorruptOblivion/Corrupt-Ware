@@ -18,11 +18,11 @@ task.spawn(function() task.wait(3) load('ExtraScripts', 'DiscordInvite') end)
 local PlaceId = game.PlaceId
 
 if PlaceId == 11237748076 then
+    notify('CorruptWare','Loading script',5)
     load('Games', 'StrangerThingsDay')
-    notify('CorruptWare','Loading script',5)
 elseif PlaceId == 11436221007 then
-    load('Games', 'BeyondTheYellowBrickRoad')
     notify('CorruptWare','Loading script',5)
+    load('Games', 'BeyondTheYellowBrickRoad')
 else
     notify('CorruptWare','Game Not Supported',25)
 end
