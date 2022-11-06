@@ -7,4 +7,4 @@ function notify(a,b,c,d)
     })
 end
 
-return notify('CorruptWare', 'Coming Soon', 5, nil)
+notify('CorruptWare', 'Coming Soon', 5, nil)
