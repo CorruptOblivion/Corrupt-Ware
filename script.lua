@@ -20,15 +20,16 @@ local GameName = game:GetService('MarketplaceService'):GetProductInfo(PlaceId).N
 
 local TemplateName = string.format('Loading Script - %s', GameName)
 
+notify('CorruptWare', TemplateName, 5)
+
 if PlaceId == 11237748076 then
-    notify('CorruptWare', TemplateName, 5)
     load('Games', 'StrangerThingsDay')
 elseif PlaceId == 11436221007 then
-    notify('CorruptWare', TemplateName, 5)
     load('Games', 'BeyondTheYellowBrickRoad')
 elseif PlaceId == 8209480473 then
-    notify('CorruptWare', TemplateName, 5)
     load('Games', 'SpotifyIsland')
+elseif PlaceId == 8523408215 then
+    load('Games', 'AloSanctuary')
 else
     notify('CorruptWare','Game Not Supported',25)
 end
