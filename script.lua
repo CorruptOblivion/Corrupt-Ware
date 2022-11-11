@@ -30,6 +30,8 @@ elseif PlaceId == 8209480473 then
     load('Games', 'SpotifyIsland')
 elseif PlaceId == 8523408215 then
     load('Games', 'AloSanctuary')
+elseif PlaceId == 9377039667 then
+    load('Games', 'RobloxInnovationAwardsVotingHub')
 else
     notify('CorruptWare','Game Not Supported',25)
 end
